@@ -1,0 +1,168 @@
+# Sample graph inputs for planarity testing
+# Format:
+# GRAPH <name>
+# <num_vertices> <num_edges>
+# u v (for each edge)
+# END
+
+# K4 complete graph (planar)
+GRAPH K4
+4 6
+0 1
+1 2
+2 3
+3 0
+0 2
+1 3
+END
+
+# K5 complete graph (non-planar, fails Euler formula)
+GRAPH K5
+5 10
+0 1
+1 2
+2 3
+3 4
+4 0
+0 2
+2 4
+4 1
+1 3
+3 0
+END
+
+# K3,3 complete bipartite (non-planar, utility graph)
+GRAPH K3_3
+6 9
+0 3
+0 4
+0 5
+1 3
+1 4
+1 5
+2 3
+2 4
+2 5
+END
+
+# 3D cube Q3 (planar)
+GRAPH Cube_Q3
+8 12
+0 1
+1 2
+2 3
+3 0
+4 5
+5 6
+6 7
+7 4
+0 4
+1 5
+2 6
+3 7
+END
+
+# Petersen graph (non-planar)
+GRAPH Petersen
+10 15
+0 1
+0 4
+0 5
+1 2
+1 6
+2 3
+2 7
+3 4
+3 8
+4 9
+5 7
+5 8
+6 8
+6 9
+7 9
+END
+
+# Pentagonal prism C5 x K2 (planar)
+GRAPH Pentagonal_Prism
+10 15
+0 1
+1 2
+2 3
+3 4
+4 0
+5 6
+6 7
+7 8
+8 9
+9 5
+0 5
+1 6
+2 7
+3 8
+4 9
+END
+
+# Week 9 lecture slide 4 graph (planar)
+GRAPH Lecture_Slide4
+7 11
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 0
+1 6
+2 6
+2 5
+3 5
+END
+
+# Week 9 lecture slide 14 components (planar)
+GRAPH Lecture_Slide14
+8 12
+6 7
+7 9
+9 8
+8 6
+6 9
+7 8
+0 4
+4 5
+5 2
+2 0
+0 5
+4 2
+END
+
+# Wheel graph W6 (planar)
+GRAPH Wheel_W6
+6 10
+0 1
+1 2
+2 3
+3 4
+4 0
+5 0
+5 1
+5 2
+5 3
+5 4
+END
+
+# Disconnected graph with K3,3 component (non-planar)
+GRAPH Disconnected_K3_3
+9 12
+0 1
+1 2
+2 0
+3 6
+3 7
+3 8
+4 6
+4 7
+4 8
+5 6
+5 7
+5 8
+END
