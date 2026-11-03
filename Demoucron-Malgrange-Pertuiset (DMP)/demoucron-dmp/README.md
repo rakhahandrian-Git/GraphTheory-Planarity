@@ -1,14 +1,5 @@
 # Demoucron–Malgrange–Pertuiset (DMP) Planarity Test
 
-## Identity
-**Informatics ITS Graph Theory IUP — Group 1**
-* 5025251012 — Khumaidy Syafiq El Maududy
-* 5025251015 — Renato Kiran Arisandi
-* 5025251016 — Keven John Gondowardojo
-* 5025251010 — Agile Octa Agrakha Handrian
-
----
-
 ## Algorithm Overview
 
 ### 1. Algorithm Name & Context
