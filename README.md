@@ -15,7 +15,6 @@
 
 ### Algorithms Implemented
 1. **[Hopcroft-Tarjan Planarity Test](./hopcroft-tarjan/)** — Linear-time planarity testing using Trémaux tree and Left-Right conflict pairs.
-2. **[Demoucron–Malgrange–Pertuiset (DMP) Planarity Test](./demoucron-dmp/)** — Incremental cycle and bridge-based path addition planarity testing with direct planar face embedding.
-
+2. 2. **[Demoucron–Malgrange–Pertuiset (DMP) Planarity Test](./Demoucron-Malgrange-Pertuiset%20(DMP)/demoucron-dmp/)** — Incremental cycle and bridge-based path addition planarity testing with direct planar face embedding.
 ---
 The Materials: https://classroom.its.ac.id/mod/resource/view.php?id=408410 (temporary)
