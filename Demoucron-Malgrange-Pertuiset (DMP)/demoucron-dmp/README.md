@@ -185,9 +185,7 @@ Found 10 graph(s) to evaluate.
 
 ## AI Tools Usage Disclosure
 
-In compliance with the assignment rules, AI assistance (Google Antigravity / Gemini) was utilized during the development of this implementation:
+In compliance with the assignment rules, AI assistance  Gemini was utilized during the development of this implementation:
 * **Assistance Provided:** Structuring the biconnected component decomposition and boundary cycle slicing for planar face subdivision in the Demoucron-Malgrange-Pertuiset algorithm, as well as formulating automated verification against `networkx.is_planar`.
 * **Prompt History:**
-  1. *"what is the homework what am i supposed to do"*
-  2. *"https://github.com/rakhahandrian-Git/GraphTheory-Planarity can you open this?"*
-  3. *"yes choose algorithm that is the easy one"*
+  1. what is the homework what am i supposed to do what is the best algorithm for this assignment
